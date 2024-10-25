@@ -49,6 +49,7 @@ export const BottomDiv = styled.div`
 export const RulesDiv = styled.div`
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 `
 export const RulesButton = styled.button`
   border: 0px;
@@ -63,8 +64,40 @@ export const ResultDiv = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 50%;
+  width: 80%;
   flex-wrap: wrap;
   margin: auto;
   margin-top: 15px;
+`
+export const OptionImage = styled.img`
+  width: 200px;
+`
+export const ResultImageDiv = styled.div`
+  text-align: center;
+  color: white;
+`
+export const ResultBottomDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+`
+export const PlayAgainButton = styled.button`
+  background-color: white;
+  border: 0px;
+  padding: 5px 25px 5px 25px;
+  font-size: 19px;
+  border-radius: 5px;
+  cursor: pointer;
+`
+
+export const RulesImage = styled.img`
+  width: 750px;
+`
+
+export const RulesImageDiv = styled.div`
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
 `
