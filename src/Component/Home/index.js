@@ -17,6 +17,7 @@ import {
   PlayAgainButton,
   RulesImage,
   RulesImageDiv,
+  Score,
 } from './styled'
 
 const gameConstants = ['ROCK', 'SCISSORS', 'PAPER']
@@ -59,7 +60,7 @@ class Home extends Component {
         this.setState(prev => ({
           isPlaying: !prev.isPlaying,
           randomNumber1: id,
-          gameResult: 'DRAW',
+          gameResult: 'IT IS DRAW',
         }))
       }
     }
@@ -145,7 +146,7 @@ class Home extends Component {
               <LogoHeading>Scissor</LogoHeading>
             </div>
             <ScoreDiv>
-              <p>Score</p>
+              <Score>Score</Score>
               <h1>{score}</h1>
             </ScoreDiv>
           </NavBar>

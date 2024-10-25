@@ -101,3 +101,6 @@ export const RulesImageDiv = styled.div`
   border-radius: 8px;
   width: 100%;
 `
+export const Score = styled.p`
+  font-family: Roboto;
+`
